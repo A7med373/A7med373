@@ -1,53 +1,13 @@
 # Ахмед Саиф
 
-Python backend-разработчик: FastAPI, Django/DRF, PostgreSQL, Docker, CI/CD, Celery, Redis, RabbitMQ/Kafka.
-
-Делаю REST API, интеграции внешних сервисов, фоновые задачи и production-like запуск. Интересны backend-команды, где важны надежность, понятная архитектура, тесты и измеримый результат.
-
-## Стек
-
-`Python` · `FastAPI` · `Django` · `DRF` · `PostgreSQL` · `Docker` · `Nginx` · `Celery` · `Redis` · `RabbitMQ` · `Kafka` · `Pytest` · `Linux` · `CI/CD`
+Python backend-разработчик: `FastAPI`, `Django/DRF`, `PostgreSQL`, `Docker`, `CI/CD`, `Pytest`.
 
 ## Проекты
 
-### Атрибуция конверсий: Yandex.Direct API x Yandex.Metrika API x WB/OZON API
-
-Коммерческий backend-проект для связки рекламных кликов с заказами маркетплейса и отправки оффлайн-конверсий в Метрику для оптимизации ставок.
-
-- ~12k событий/час на FastAPI async и PostgreSQL.
-- Эвристический матчинг: время, товар, регион, confidence threshold.
-- Celery + RabbitMQ для фоновых задач, PostgreSQL advisory locks для идемпотентного sync.
-- Telegram-бот для операционных уведомлений.
-- Публичная demo-версия архитектуры: [ad-optimization-demo](https://github.com/A7med373/ad-optimization-demo).
-- Production-версия под NDA, архитектуру и метрики могу разобрать на собеседовании.
-
-### Геотрекинг оборудования
-
-Фриланс-проект для отслеживания медицинского оборудования в реальном времени на карте здания.
-
-- Интеграция с проприетарным API трекера и нестандартными HTTP-сценариями.
-- Прием, обработка и хранение координат оборудования.
-- Интерактивная карта, статусы устройств и обновление данных.
-- Публичный MVP: [GpsTrack](https://github.com/A7med373/GpsTrack). Финальная версия приватная.
-
-### Foodgram
-
-Fullstack-приложение для рецептов, подписок, избранного и списка покупок.
-
-- Django REST Framework, PostgreSQL, React, Docker, Nginx.
-- Авторизация, рецепты, ингредиенты, теги, подписки, корзина.
-- Репозиторий: [foodgram-st](https://github.com/A7med373/foodgram-st)
-
-### Barter Platform
-
-MVP-платформа для обмена товарами между пользователями.
-
-- Django, PostgreSQL, Docker, Nginx, Gunicorn, тесты.
-- Регистрация, объявления, фильтры, предложения обмена и статусы.
-- Репозиторий: [barter_platform](https://github.com/A7med373/barter_platform)
-
-## Еще
-
+- [ad-optimization-demo](https://github.com/A7med373/ad-optimization-demo) - публичная demo-версия атрибуции рекламных конверсий. FastAPI, PostgreSQL и Telegram-бот для управления пересчетом.
+- [GpsTrack](https://github.com/A7med373/GpsTrack) - сервис геотрекинга оборудования на плане здания. Есть карта, хранение координат и MVP-интерфейс.
+- [foodgram-st](https://github.com/A7med373/foodgram-st) - приложение для рецептов и списка покупок. Backend API, Docker и production-ориентированная схема запуска.
+- [barter_platform](https://github.com/A7med373/barter_platform) - платформа для обмена товарами между пользователями. Регистрация, объявления, фильтры и статусы.
 - [UpTrader](https://github.com/A7med373/UpTrader) - Django tree menu с template tags и отрисовкой за один запрос к БД.
 - [miniAPI_tasks](https://github.com/A7med373/miniAPI_tasks) - небольшой FastAPI REST API с тестами.
 
