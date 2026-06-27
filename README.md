@@ -1,6 +1,6 @@
 # Ахмед Саиф
 
-Python backend-разработчик: `FastAPI`, `Django/DRF`, `PostgreSQL`, `Docker`, `CI/CD`, `Pytest`.
+Python backend-разработчик: `FastAPI`, `Django/DRF`, `PostgreSQL`, `Docker`, `CI/CD`, `Pytest`, `Kafka`.
 
 ## О себе
 
