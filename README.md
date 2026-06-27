@@ -18,7 +18,8 @@ Python backend-разработчик: FastAPI, Django/DRF, PostgreSQL, Docker, 
 - Эвристический матчинг: время, товар, регион, confidence threshold.
 - Celery + RabbitMQ для фоновых задач, PostgreSQL advisory locks для идемпотентного sync.
 - Telegram-бот для операционных уведомлений.
-- Проект в продакшене, детали под NDA. Архитектуру и метрики могу разобрать на собеседовании.
+- Публичная demo-версия архитектуры: [ad-optimization-demo](https://github.com/A7med373/ad-optimization-demo).
+- Production-версия под NDA, архитектуру и метрики могу разобрать на собеседовании.
 
 ### Геотрекинг оборудования
 
